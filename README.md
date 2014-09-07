@@ -63,4 +63,5 @@ employeeModel.regexSearch('JA',searchOptions,function(err, result){
 ```
 
 ## Notes:
-Check test/index.js for sample test program.
+
+execute 'make test' to run test program 'test/index.js' .
