@@ -6,6 +6,7 @@ A Simple plugin for mongoose regex search
 
 ## Sample Program:
 
+```js
 var Mongoose = require('mongoose');
 var regexSearch = require('mongoose-regex');
 
@@ -59,7 +60,7 @@ employeeModel.regexSearch('JA',searchOptions,function(err, result){
    console.log(result);
 
 });
-
+```
 
 ## Notes:
 Check test/index.js for sample test program.

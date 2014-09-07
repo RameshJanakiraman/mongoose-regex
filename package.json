@@ -1,6 +1,6 @@
 {
   "name": "mongoose-regex",
-  "description": "A Simple plugin for mongoose regex search",
+  "description": "A simple plugin for mongoose regex search",
   "version": "0.0.1",
   "repository": {
     "type": "git",
