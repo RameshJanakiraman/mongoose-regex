@@ -14,7 +14,7 @@ var regexSearch = require('mongoose-regex');
 var mongoDbUrl = 'mongodb://localhost:27017/local';
 var db = Mongoose.connect(mongoDbUrl);
 
-// Defind mongoose schema details
+// Define mongoose schema details
 var Schema = Mongoose.Schema;
 
 var employeeSchema = new Schema({
@@ -50,7 +50,7 @@ employeeModel.create([
 
 // set the options for mongoose-regex
 var searchOptions = {
-    fieldToSearch: 'name', // which field you wan to search
+    fieldToSearch: 'name', // which field you want to search
     caseSensitive: false // apply case sensitivity to your search
 }
 
